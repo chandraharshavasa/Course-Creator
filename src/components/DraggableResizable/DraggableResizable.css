@@ -1,0 +1,12 @@
+.draggable-resizable {
+  display: inline-block;
+  position: absolute;
+  border: 1px dashed #ccc;
+  background-color: rgba(255, 255, 255, 0.8);
+  box-sizing: border-box;
+  overflow: hidden;
+}
+.draggable-resizable:hover {
+  border-color: #007bff;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
